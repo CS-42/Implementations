@@ -24,7 +24,9 @@ def give_output(i):
     
         numbers = [int(n) for n in user_input_list]
 
-        numbers = [n for n in numbers if n % 2 == 0]
+        is_even = lambda n: n % 2 == 0
+
+        numbers = [n for n in numbers if is_even(numbers.index(n) + 1)]
 
         sum_numbers = list(str(sum(numbers)))
         
