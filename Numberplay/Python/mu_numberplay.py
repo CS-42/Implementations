@@ -17,6 +17,14 @@ def check_input(i):
         print("Error: Digits must be 10 or less!")
         return False
 
+    if int(i) < 0:
+        print("Error: Negatives not allowed!")
+        return False
+
+    if " " in i:
+        print("Error: Blank spaces found!")
+        return False
+
     return True
 
 
