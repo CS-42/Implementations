@@ -6,6 +6,15 @@
 Output a single digit positive integer or 0.<br>
 Accept a number upto 10 digits.</p>
 
+```
+|----|----|----|----|----|----|----|----|----|----|
+|  3 |  4 |  4 |  7 |  5 |  9 |  2 |  5 |  3 |  4 |
+|____|####|____|####|____|####|____|####|____|####|
+```
+The numbers that need to be added are represented by hash marks under them.
+So 4 + 7 + 9 + 5 + 4 = 29, now add 2 + 9 = 11, now add 1 + 1 = 2, 2 is the output.
+Remember after the initial addition of selected numbers, you don't have to only add the numbers at the even place, you add all the digits and try to make it a single digit number.
+
 ## Logic:
 
 <p>For number 1234567890<br>
